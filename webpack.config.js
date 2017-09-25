@@ -4,7 +4,7 @@ const config = {
 	context: __dirname,
 	entry: [
 		'babel-polyfill',
-		'./lib/components/Index.jsx'
+		'./lib/renderers/dom.jsx'
 	],
 	devtool: process.env.NODE_ENV === 'development'
 		? 'cheap-eval-source-map'
