@@ -6,6 +6,7 @@ module.exports = {
 		ecmaVersion: 2016,
 		sourceType: 'module',
 		ecmaFeatures: {
+			experimentalObjectRestSpread: true,
 			jsx: true
 		}
 	},
